@@ -1,0 +1,19 @@
+/* Write your code here. */
+.emoji-app-container {
+  background-image: linear-gradient(to bottom, #6a59ff, #fbc7d4);
+  margin-top: 0px;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.emojis-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70%;
+  align-self: center;
+}

@@ -1,0 +1,35 @@
+/* Write your code here. */
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #9796f0;
+  border-bottom-width: 2px;
+  border-color: #3d3d3d;
+  margin-bottom: 0px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-style {
+  width: 70px;
+}
+
+.score-container {
+  color: #ffffff;
+  font-family: roboto;
+  display: flex;
+  flex-direction: row;
+}
+
+.each-score-para {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  color: #ffffff;
+}

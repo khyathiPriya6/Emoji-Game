@@ -1,0 +1,21 @@
+/* Write your code here. */
+.emoji-background {
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #ffffff30;
+  border-style: solid;
+  background-color: #ffffff30;
+  margin: 10px;
+  list-style: none;
+  padding: 15px;
+}
+
+.emoji-style {
+  width: 100px;
+  margin: 10px;
+}
+
+.emoji-btn {
+  background-color: transparent;
+  border-width: 0px;
+}
