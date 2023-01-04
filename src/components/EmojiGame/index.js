@@ -10,7 +10,6 @@ import './index.css'
 
 /* 
 Quick Tip 
-
 - Use the below function in the EmojiGame Component to shuffle the emojisList every time when an emoji is clicked.
 */
 
@@ -73,6 +72,9 @@ class EmojiGame extends Component {
     const isEmojiPresent = finishedEmojisIdList.includes(id)
     const clickedEmoji = emojisList.find(eachItem => eachItem.id === id)
     if (isEmojiPresent) {
+      this.finishGame()
+    } else if (emojisList.length - 1 === finishedEmojisIdList.length) {
+      this.setState({finishedEmojisIdList: emojisList})
       this.finishGame()
     } else {
       this.setState(prevState => ({
